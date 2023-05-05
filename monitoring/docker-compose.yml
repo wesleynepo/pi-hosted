@@ -14,7 +14,6 @@ services:
     expose:
       - 9090
     links:
-      - cadvisor:cadvisor
       - node-exporter:node-exporter
     networks:
       - pi
